@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Rencata</h1>
+    <p class="lead">ASP.NET MVC Project - Section -1 Related Programs are Demonstrated.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Getting started</h2>
+        <p>
+            This ASP.NET MVC Project Demonstrate section -1 programs.<br /><br />
+            <table>
+                <tr>
+                    <td>
+                        1.Print the grade-school multiplication table m x n?
+                    </td>
+                    <td>
+                        @Html.ActionLink("Try Now", "Question1", "Section1Programs","", new { @class = "btn btn-outline-primary" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2.Reverse the given number without converting it to string and don’t use array?
+                    </td>
+                    <td>
+                        @Html.ActionLink("Try Now", "Question2", "Section1Programs","", new { @class = "btn btn-outline-primary" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3.Prints the duplicate characters along with the number of times it had been duplicated?
+                    </td>
+                    <td>
+                        @Html.ActionLink("Try Now", "Question3", "Section1Programs","", new { @class = "btn btn-outline-primary" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4.Check whether given string contains only digits without using regular expression?
+                    </td>
+                    <td>
+                        @Html.ActionLink("Try Now", "Question4", "Section1Programs","", new { @class = "btn btn-outline-primary" })
+                    </td>
+                </tr>
+            </table>
+        </p>
+    </div>
+</div>

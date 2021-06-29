@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Section - 1:</h2>
+
+<div class="container">
+    <table>
+        <tr>
+            <td>
+                1.Print the grade-school multiplication table m x n?
+            </td>
+            <td>
+                @Html.ActionLink("Try Now", "Question1", "", new { @class = "btn btn-outline-primary" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2.Reverse the given number without converting it to string and don’t use array?
+            </td>
+            <td>
+                @Html.ActionLink("Try Now", "Question2", "", new { @class = "btn btn-outline-primary" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3.Prints the duplicate characters along with the number of times it had been duplicated?
+            </td>
+            <td>
+                @Html.ActionLink("Try Now", "Question3", "", new { @class = "btn btn-outline-primary" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4.Check whether given string contains only digits without using regular expression?
+            </td>
+            <td>
+                @Html.ActionLink("Try Now", "Question4", "", new { @class = "btn btn-outline-primary" })
+            </td>
+        </tr>
+    </table>
+</div>
